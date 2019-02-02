@@ -37,15 +37,12 @@ a:hover{
     padding: 30px 40px 10px 0;
 }
 h2{
-   float: right;
-    padding: 30px 200px 30px 0;
+    text-align: center;
     font-size: 40px;
     font-family: 'Major Mono Display', monospace;
     color: rgb(253, 79, 0);
-  
 }
-#me-text{
+div {
     width: 60%;
-    padding-left: 40px;
-    font-size: 20px;
+    text-align: center;
 }
