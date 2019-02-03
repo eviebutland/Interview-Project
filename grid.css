@@ -47,10 +47,12 @@
 
 .span-2-of-2 {
 	width: 100%;
+	display: inline-block;
 }
 
 .span-1-of-2 {
 	width: 49.2%;
+	display: inline-block;
 }
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
