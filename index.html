@@ -15,9 +15,9 @@
     <header>
        <!-- to be a fixed header that turns white -->
         <nav id="main-nav">
-            <li><a href="#about-me">About me</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-            <li><a href="#my-family">My Family</a></li>
+            <li><a href="#about-me" class="nav-link">About me</a></li>
+            <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+            <li><a href="#my-family" class="nav-link">My Family</a></li>
         </nav>
         <h1>Evie<br>Perren.</h1>
     </header>
@@ -104,20 +104,23 @@
         <div class="container-footer">
             <div class="row-footer">
                 <p id="f-p">I hope you liked my website about me. Thank you for this opportunity. If you would like to get in contact, email me here...</p>
-                <form>
+                <div class="row">
+                <form id="button1">
                 <button>
                     <a href="mailto:evie.butland@gmail.com">
                        Personal email            
                     </a>
                 </button>
-
+                </form>
+                <form id="button2">
                 <button>    
                     <a href="mailto:evie.perren@simplyhealth.co.uk">
                         Work email            
                     </a>
                 </button>
                 </form>
-                <p>Created by Evie Perren &copy 2018</p>
+                </div>
+                <p id="copy">Created by Evie Perren &copy 2018</p>
             </div>
         </div>
     </footer>

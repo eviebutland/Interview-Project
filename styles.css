@@ -27,16 +27,19 @@ h1{
     font-family: 'Playfair Display', serif;
     transform: translateY(20%);
 }
-a,
+.nav-link,
 li {
     display: inline-block;
     float: right;
     text-decoration: none;
     color: #ffffff;
     margin: 10px;
+    transition-duration: 0.4s;
+    padding-bottom: 3px;
 }
-a:hover{
+.nav-link:hover{
     text-decoration: underline;
+
 }
 
 /* ------------------about me section------------------ */
@@ -133,18 +136,37 @@ h5 {
     height: 200px;
 }
 .row-footer{
-    display: inline
+    display: inline;
 }
 #f-p{
-    font-weight: 800;
+    font-weight: 400;
     padding-top: 30px;
     text-align: center;
 }
-form{
+form { 
     padding: 20px;
-    text-align: center;
+    display: inline-block;
+    transform: translateX(400px);
 }
+
 button{
     background-color: rgb(255, 136, 0);
-    font-size: 20px;
+    font-size: 15px;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    padding: 15px;
+}
+button:hover{
+    text-decoration: none;
+    background-color: rgb(238, 205, 167);
+    color: #000;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+#copy{
+    text-align: center;
+    font-size: 10px;
 }
