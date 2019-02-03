@@ -18,13 +18,14 @@ header{
     padding: 0;
     width: 100%;
     height: 730px;
+    position: sticky;
 }
 h1{
     margin: 0px;
     padding: 40px;
     font-size: 170px;
     font-family: 'Playfair Display', serif;
-    transform: translateY(20%)
+    transform: translateY(20%);
 }
 a,
 li {
@@ -47,6 +48,7 @@ h2 {
     font-size: 40px;
     font-family: 'Major Mono Display', monospace;
     color: rgb(253, 79, 0);
+    padding-top: 20px;
 }
 article p{
     text-align: center;
@@ -80,6 +82,7 @@ article p{
     padding-top: 50px;
     width: 200px;
     padding-left: 130px;
+   
 }
 h5 {
     font-family: 'Old Standard TT', serif; 
@@ -94,3 +97,10 @@ h5 {
 #at-college h5{
     text-align: right;
 }
+#hobbies-end {
+    padding-bottom: 90px;
+    border-bottom: 1px solid rgb(204, 165, 36);
+    transform: translateY(-20%);
+}
+
+/* --------------- my family section --------------- */
