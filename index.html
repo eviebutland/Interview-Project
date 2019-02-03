@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="queries.css">
     <script src="app.js"></script>
     <title>Evie Perren</title>
 </head>
 <body>
-    <!--BLACK AND WHITE OUT HEADER FULL PAGE-->
     <header>
-       
+       <!-- to be a fixed header that turns white -->
         <nav id="main-nav">
             <li><a href="#about-me">About me</a></li>
             <li><a href="#hobbies">Hobbies</a></li>
@@ -22,16 +23,17 @@
     
     <section id="about-me">
         <div class="container">
-        <h2>About Me</h2>
-        <div id="me-text">
-        <p>My name is Evie Perren and I am 19 years old. Currently working in the Contact Center and learning how to make exciting webistes in my free time. I live at home with my family, and my 3 chihuahuas. I love to travel and visit new places as much as possible with my boyfriend and friends. </p>
-        </div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra vitae est vel convallis. Fusce porttitor sapien ac dapibus bibendum. Quisque ut tortor gravida, interdum ex vel, scelerisque libero. Praesent sollicitudin, tellus ac finibus porta, lacus ligula malesuada lacus, vitae tincidunt metus erat nec quam. Duis leo augue, mollis non vulputate at, tincidunt id enim. Sed eget venenatis leo. Curabitur pellentesque nunc ac tincidunt varius. Maecenas bibendum sit amet erat sed vulputate. Curabitur quam ex, cursus ut rutrum eget, malesuada posuere massa. Donec dolor mauris, dictum vel augue sed, consectetur feugiat nunc. Phasellus non libero id quam dictum fermentum at fringilla elit.</p>
-        <img src="/images/IMG_0429.JPG" alt="image of me" width="100px">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra vitae est vel convallis. Fusce porttitor sapien ac dapibus bibendum. Quisque ut tortor gravida, interdum ex vel, scelerisque libero. Praesent sollicitudin, tellus ac finibus porta, lacus ligula malesuada lacus, vitae tincidunt metus erat nec quam. Duis leo augue, mollis non vulputate at, tincidunt id enim. Sed eget venenatis leo. Curabitur pellentesque nunc ac tincidunt varius. Maecenas bibendum sit amet erat sed vulputate. Curabitur quam ex, cursus ut rutrum eget, malesuada posuere massa. Donec dolor mauris, dictum vel augue sed, consectetur feugiat nunc. Phasellus non libero id quam dictum fermentum at fringilla elit.</p>
+                <div class="row">
+                    <div class="span-3-of-3">
+                        <article>
+        <!--<h2>About Me</h2>-->
+        <img src="/images/me.jpg" alt="image of me" id="img-me">
 
-        <img src="images/IMG_2424.HEIC" alt="image of dogs"> 
-</div>
+        <p>My name is Evie Perren and I am 19 years old. Currently working in the Contact Center of Simplyhealth and learning how to make exciting websites in my free time. I love the process of making websites come to life. I live at home with my family, and my 3 chihuahuas. But hoping to move out soon! I love to travel and visit new places as much as possible with my boyfriend and friends.</p>
+                        </article>
+                    </div>
+                </div>
+        </div>
     </section>
     <!-- end of about me section-->
     <section id="hobbies">
