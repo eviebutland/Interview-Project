@@ -49,6 +49,8 @@ h2 {
 article p{
     text-align: center;
     line-height: 25px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgb(204, 165, 36);
 }
 #img-me{
     display: block;
@@ -58,3 +60,4 @@ article p{
     width: 45%;
     height: auto;
 }
+/* ------------------ my hobbies section ----------------*/
