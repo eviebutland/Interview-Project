@@ -70,6 +70,7 @@ article p{
     color:rgb(204, 126, 36);
     font-size: 40px;
     margin-bottom: 30px;
+    padding-top: 30px;
     font-family: 'Old Standard TT', serif;
 }
 #hobbies-container{
@@ -121,4 +122,29 @@ h5 {
 }
 .span-4-of-6 p {
     text-align: center;
+    padding-bottom: 40px;
+}
+
+/* ------------------------ footer section ------------------- */
+
+.container-footer{
+    background-image: linear-gradient(to bottom right, yellow , red);
+    color: #ffffff;
+    height: 200px;
+}
+.row-footer{
+    display: inline
+}
+#f-p{
+    font-weight: 800;
+    padding-top: 30px;
+    text-align: center;
+}
+form{
+    padding: 20px;
+    text-align: center;
+}
+button{
+    background-color: rgb(255, 136, 0);
+    font-size: 20px;
 }
