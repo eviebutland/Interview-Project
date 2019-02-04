@@ -27,6 +27,7 @@ header{
     0%   {background-color: red;}
     25%  {background-color: orangered;}
     50%  {background-color: orange;}
+    75% {background-color: rgb(255, 115, 0);}
     100% {background-color: orangered;}
   }
 
@@ -78,6 +79,11 @@ article p{
     width: 45%;
     height: auto;
 }
+.img-me:hover,
+#hobbies-1:hover ,
+#hobbies-2:hover {
+    opacity: 0.7;
+}
 /* ------------------ my hobbies section ----------------*/
 .container h4 {
     text-align: center;
@@ -97,6 +103,7 @@ article p{
     padding: 50px 0 0 130px;
     width: 200px;
 }
+
 h5 {
     font-family: 'Old Standard TT', serif; 
     font-size: 20px;
@@ -116,6 +123,9 @@ h5 {
 }
 
 /* --------------- my family section --------------- */
+#my-family{
+    padding-bottom: 70px;
+}
 #my-family .row{
     display: flex;
     padding-left:20%;
@@ -157,19 +167,19 @@ h5 {
 form { 
     padding: 20px;
     display: inline-block;
-    transform: translateX(400px);
+    transform: translateX(550px);
 }
 
 button{
     background-color: rgb(255, 136, 0);
     font-size: 15px;
-    border-radius: 4px;
+    border-radius: 5px;
     transition-duration: 0.4s;
     padding: 15px;
 }
 button:hover{
     text-decoration: none;
-    background-color: rgb(238, 205, 167);
+    background-color: rgb(243, 175, 97);
     color: #000;
 }
 
