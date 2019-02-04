@@ -12,20 +12,28 @@ p {
 }
 /* ----------------- top section -------------------*/
 header{
-    background-image: linear-gradient(to bottom right, red , yellow);
     color: white;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 730px;
     position: sticky;
+    animation-name: header-color;
+    animation-duration: 4s;
 }
+@keyframes header-color {
+    0% {background-color: orangered};
+    25% {background-color: orange};
+    50% {background-color:orangered;}
+    100% {background-color:red;}
+  }
 h1{
     margin: 0px;
     padding: 40px;
     font-size: 170px;
     font-family: 'Playfair Display', serif;
     transform: translateY(20%);
+    
 }
 .nav-link,
 li {
@@ -34,11 +42,11 @@ li {
     text-decoration: none;
     color: #ffffff;
     margin: 10px;
-    transition-duration: 0.4s;
+    transition: 1s;
     padding-bottom: 3px;
 }
 .nav-link:hover{
-    text-decoration: underline;
+    text-decoration-line: line-through;
 
 }
 
