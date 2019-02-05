@@ -85,7 +85,7 @@ article p{
     height: 650px;
     background-image: url("/images/lauren-kay-322313-unsplash.jpg");
     background-repeat: no-repeat;
-    
+    background-attachment: fixed;
 }
 #new-hobbies-1 h5{
     color:#fff;
@@ -112,8 +112,7 @@ article p{
 #new-hobbies-2 {
     height: 650px;
     background-image: url("/images/filip-mroz-531492-unsplash.jpg");
-   
-    
+    background-attachment: fixed;
 }
 #new-hobbies-2 h5{
     color:#fff;
@@ -139,6 +138,7 @@ article p{
 #new-hobbies-3 {
     height: 650px;
     background-image: url("/images/danny-howe-762860-unsplash.jpg");
+    background-attachment: fixed;
 }
 #new-hobbies-3 h5{
     color:#fff;
