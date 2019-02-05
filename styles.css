@@ -95,11 +95,11 @@ article p{
 }
 #hobbies-container{
     margin: 0;
-    padding: 0 20%;
+    padding: 0 18%;
     line-height: 25px;
 }
-#hobbies-1 ,
-#hobbies-2{
+.hobbies-left ,
+#hobbies-right{
     padding: 50px 0 0 130px;
     width: 200px;
 }
@@ -167,7 +167,7 @@ h5 {
 form { 
     padding: 20px;
     display: inline-block;
-    transform: translateX(550px);
+    transform: translateX(450px);
 }
 
 button{
