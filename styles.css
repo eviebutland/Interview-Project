@@ -24,11 +24,11 @@ header{
     animation-iteration-count: infinite;
 }
 @keyframes header-change {
-    0%   {background-color: red;}
-    25%  {background-color: orangered;}
-    50%  {background-color: orange;}
-    75% {background-color: rgb(255, 115, 0);}
-    100% {background-color: orangered;}
+    0%   {background-color: black;}
+    25%  {background-color: grey;}
+    50%  {background-color: rgb(68, 68, 170);}
+    75% {background-color: rgb(0, 12, 68);}
+    100% {background-color: black;}
   }
 
 h1{
@@ -69,7 +69,6 @@ article p{
     text-align: center;
     line-height: 25px;
     padding-bottom: 100px;
-    border-bottom: 1px solid rgb(212, 55, 55);
 }
 #img-me{
     display: block;
@@ -80,14 +79,14 @@ article p{
     height: auto;
 }
 .img-me:hover,
-#hobbies-1:hover ,
-#hobbies-2:hover {
+.hobbies-left:hover ,
+#hobbies-right:hover {
     opacity: 0.7;
 }
 /* ------------------ my hobbies section ----------------*/
 .container h4 {
     text-align: center;
-    color:rgb(204, 126, 36);
+    color:rgb(253, 253, 253);
     font-size: 40px;
     margin-bottom: 30px;
     padding-top: 30px;
@@ -97,6 +96,8 @@ article p{
     margin: 0;
     padding: 0 18%;
     line-height: 25px;
+    background-color: #000;
+    color: #fff;
 }
 .hobbies-left ,
 #hobbies-right{
@@ -118,13 +119,14 @@ h5 {
 
 #hobbies-end {
     padding-bottom: 90px;
-    border-bottom: 1px solid rgb(204, 165, 36);
     transform: translateY(-20%);
 }
 
 /* --------------- my family section --------------- */
 #my-family{
+    padding-top: 90px;
     padding-bottom: 70px;
+    
 }
 #my-family .row{
     display: flex;
@@ -146,15 +148,15 @@ h5 {
 }
 .span-4-of-6 p {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ec5316;
 }
 
 /* ------------------------ footer section ------------------- */
 
 .container-footer{
-    background-image: linear-gradient(to bottom right, yellow , red);
-    color: #ffffff;
-    height: 200px;
+    color: #ec5316;
+    height: 300px; 
 }
 .row-footer{
     display: inline;
