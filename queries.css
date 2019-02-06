@@ -49,4 +49,54 @@
         footer{height: 300px}
         #button1{transform: translateX(30px)}
         #button2{transform: translateX(320px)}
-     }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .main-nav{
+            float: left;
+        }
+        h1{
+            padding-top:40px;
+        }
+        #new-hobbies-1{
+            width:100%;
+        }
+        .box-1{
+            width:200px;
+            height: 300px;
+            overflow: scroll;
+            
+        }
+        #new-hobbies-2{
+            width:100%;
+        }
+        .box-2{
+            width:200px;
+            height: 600px;
+            padding: 0;
+            margin-top:20px;
+
+        }
+        #new-hobbies-3{
+            width:100%;
+        }
+        .box-3{
+            width:200px;
+            height: 500px;
+            
+        }
+        .art-photo {
+            height:100px;
+        }
+        #my-family{
+            height: 800px;
+            overflow: hidden;
+        }
+        .box-4{
+            width: 200px;
+            overflow: scroll;
+        }
+        #button2 {
+            visibility: hidden;
+        }
+    }
