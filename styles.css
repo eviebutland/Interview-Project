@@ -86,7 +86,7 @@ article p{
 /* ------------------ NEW hobbies section ----------------*/
 #new-hobbies-1 {
     height: 650px;
-    background-image: url("https://eviebutland.github.io/evieperren.github.io//images/lauren-kay-322313-unsplash.jpg");
+    background-image: url("https://eviebutland.github.io/evieperren.github.io/images/lauren-kay-322313-unsplash.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -115,7 +115,7 @@ article p{
 /* ------------------ NEW hobbies 2 section ----------------*/
 #new-hobbies-2 {
     height: 650px;
-    background-image: url("/images/filip-mroz-531492-unsplash.jpg");
+    background-image: url("https://eviebutland.github.io/evieperren.github.io/images/lauren-kay-322313-unsplash.jpg");
     background-attachment: fixed;
 }
 #new-hobbies-2 h5{
@@ -142,7 +142,7 @@ article p{
 /* ------------------ NEW hobbies section ----------------*/
 #new-hobbies-3 {
     height: 650px;
-    background-image: url("/images/danny-howe-762860-unsplash.jpg");
+    background-image: url("");
     background-attachment: fixed;
 }
 #new-hobbies-3 h5{
@@ -168,7 +168,8 @@ article p{
 /* ------ Family ------------- */
 #my-family {
     height: 650px;
-    background-image: url("/images/bryce-evans-202182-unsplash.jpg");
+    background-image: url("https://eviebutland.github.io/evieperren.github.io/images/bryce-evans-202182-unsplash.jpg");
+      
     background-repeat: no-repeat;
     padding: 0;
     margin:0;
