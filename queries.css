@@ -50,9 +50,16 @@
         #button1{transform: translateX(30px)}
         #button2{transform: translateX(320px)}
     }
-
-    @media only screen and (max-width: 375px) {
-        
+    @media only screen and (max-width: 414px) {
+        .main-nav{
+            float: left;
+        }
+        h1{
+            padding-top:40px;
+        }
+        #new-hobbies-1{
+            width:100%;
+        }
         .main-nav{
             float: left;
         }
@@ -63,7 +70,61 @@
             width:100%;
         }
         .box-1{
+            
+            width: 200px;
+            height: 400px;
+            overflow: scroll;
+            
+        }
+        #new-hobbies-2{
+            width:100%;
+        }
+        .box-2{
             width:200px;
+            height: 400px;
+            padding: 0;
+            margin-top:20px;
+            overflow: scroll;
+
+        }
+        #new-hobbies-3{
+            width:100%;
+        }
+        .box-3{
+            width:200px;
+            height: 400px;
+            overflow: scroll;
+            
+        }
+        .art-photo {
+            height:123px;
+        }
+        #my-family{
+            height: 800px;
+            overflow: hidden;
+        }
+        .box-4{
+            width: 200px;
+            overflow: scroll;
+        }
+        #button2 {
+            visibility: hidden;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .main-nav{
+            float: left;
+        }
+        h1{
+            padding-top:40px;
+        }
+        #new-hobbies-1{
+            width:100%;
+        }
+        .box-1{
+            
+            width: 200px;
             height: 400px;
             overflow: scroll;
             
