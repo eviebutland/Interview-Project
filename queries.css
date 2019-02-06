@@ -7,66 +7,46 @@
         width: 100%;
         padding: 0 2%;
     }
-    .row {padding: 0 2%; }
-    .container .me{padding: 30px 30% 0 30%;}}
-
-
-
-
 
 /* --------------------------------------------the rules below will apply when the width is 768 to 1023px wide ( small tablet to big tablet)
 ------------------------------------------*/
 
 @media only screen and (max-width: 1023px) {
     body {font-size: 18px;}
-    section {padding: 60px 0;}
-
-    .container .me {padding: 30px 20% 0 20%};
-    /* fitting */
-    #hobbies{ padding: 10px;}
-    .container h4 {padding-top: 0px;}
-    /* hobbies placing */
-    .hobbies-left{padding-left: 10%}
-    #hobbies-right{padding-left: 10%;}
-    #hobbies-end{padding-top:20%;}
-    .span-1-of-5 img{width: 100%; height: auto;}
-    /*buttons*/
-    #f-p{font-size:20px;}
-    form {transform: translateX(340px);}
+    .box-4 {margin: 5%; 
+    transform: translateX(30%) translateY(15%);}
+    footer p {padding: 3% 10%}
+    footer{height: 300px}
+    #button1{transform: translateX(70px)}
     }
-
-    @media only screen and (min-width: 992px) {
-
-    }
-
-
 /* --------------------------------------------the rules below will apply when the width is 481px to 767px wide (bigger iphones but smaller than ipad)
 ------------------------------------------*/
 
 @media only screen and (max-width: 767px) {
-    body { font-size: 16px;}
-    section {padding: 30px 0}
+    body { font-size: 16px;
+    width:100%}
+    .box-4{transform: translateX(60px) translateY(60px);}
 
     h1{font-size: 100px;}
-    .container .me {padding: 30px 10% 0 10%};
-    #hobbies-container{padding: 0 20px;}
-    .row {padding:3%;}
-    .hobbies-left{padding-left: 80px; width: 50%; height:auto;}
-    #hobbies-right{padding-left: 70px; width: 50%; height:auto;}
-    #hobbies-end{padding-top:30px;}
-    
-    #my-family .row {padding: 0 0 0 18%;}
-    footer{height: auto;}
-    #f-p{font-size:20px; padding: 10px 15%;}
-    form {transform: translateX(140px);}
+    #button2{transform: translateX(380px)}
      }
      @media only screen and (min-width: 600px) {
-
+        h1{
+            padding-left: 80px;
+            padding-top: 150px;
+        }
+        .box-4 p{
+            text-align: center;
+            width:90%;
+            padding:5px;
+            margin:5px;
+            height: 500px;
+        }
+        .box-4{
+            height: 350px;
+            transform: translateX(-5px) translateY(100px);
+        }
+        footer{height: 300px}
+        #button1{transform: translateX(30px)}
+        #button2{transform: translateX(320px)}
      }
-/* --------------------------------------------the rules below will apply when the width is 0 to 480px wide (old iphones)
-------------------------------------------*/
-@media only screen and (max-width: 480px) {
-    header{width: auto;}
-    .container{width:fill;}
-
-}

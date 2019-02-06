@@ -187,7 +187,7 @@ article p{
     padding: 30px;
 }
 .box-4  {
-    margin: 100px 100px 0 0;
+    margin: 10% 10% 0 0;
     background-color: #fff;;
     opacity: 0.5;
     width: 600px;
@@ -253,7 +253,6 @@ footer {
     padding: 0;
     width: 100%;
     height: 220px;
-    position: sticky;
     animation-name: header-change;
     animation-duration: 10s;
     animation-direction: normal;
