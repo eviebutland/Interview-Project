@@ -1,13 +1,17 @@
-
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 * {
     font-family:'Poiret One', cursive;
     font-weight: 900;
     text-align: left;
     margin: 0;
 }
-body {
-    height: 4700px;
-}
+
 .container{
     padding: 30px 30% 0 30%; 
 }
