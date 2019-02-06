@@ -26,6 +26,7 @@ header{
     animation-duration: 10s;
     animation-direction: normal;
     animation-iteration-count: infinite;
+    transition: 0.2s;
 }
 @keyframes header-change {
     0%   {background-color: black;}
