@@ -1,4 +1,4 @@
-/* ---------------- general styles -----------------*/
+
 * {
     font-family:'Poiret One', cursive;
     font-weight: 900;
@@ -22,12 +22,25 @@ header{
     width: 100%;
     height: 730px;
     z-index: 1;
-    animation-name: header-change;
-    animation-duration: 10s;
-    animation-direction: normal;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: header-change;
+            animation-name: header-change;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
 }
+@-webkit-keyframes header-change {
+    0%   {background-color: black;}
+    25%  {background-color: rgb(49, 49, 49);}
+    50%  {background-color: rgb(104, 104, 104);}
+    75% {background-color: rgb(31, 31, 31);}
+    100% {background-color: black;}
+  }
 @keyframes header-change {
     0%   {background-color: black;}
     25%  {background-color: rgb(49, 49, 49);}
@@ -41,7 +54,9 @@ h1{
     padding: 40px;
     font-size: 170px;
     font-family: 'Playfair Display', serif;
-    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+        -ms-transform: translateY(20%);
+            transform: translateY(20%);
     
 }
 .nav-link,
@@ -52,11 +67,14 @@ li {
     text-decoration: none;
     color: #ffffff;
     margin: 20px;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
     transition: 1s;
     font-size: 30px;
 }
 .nav-link:hover{
-    text-decoration-line: line-through;
+    -webkit-text-decoration-line: line-through;
+            text-decoration-line: line-through;
 
 }
 
@@ -173,7 +191,9 @@ article p{
     background-repeat: no-repeat;
     padding: 0;
     margin:0;
-    transform: translateY(-18%);
+    -webkit-transform: translateY(-18%);
+        -ms-transform: translateY(-18%);
+            transform: translateY(-18%);
 }
 #my-family h5{
     color:#000;
@@ -192,7 +212,9 @@ article p{
     opacity: 0.5;
     width: 600px;
     height: 450px;
-    transform: translateX(70%) translateY(20%)
+    -webkit-transform: translateX(70%) translateY(20%);
+        -ms-transform: translateX(70%) translateY(20%);
+            transform: translateX(70%) translateY(20%)
 }
 /* ----------pictures section ----- */
 ul,
@@ -227,14 +249,24 @@ figure {
     opacity: 0.7;
     width: 100%;
     height: auto;
-            transform: scale(1.15);
+            -webkit-transform: scale(1.15);
+                -ms-transform: scale(1.15);
+                    transform: scale(1.15);
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
     transition: opacity 0.5s; 
-    transition: transform 0.5s, opacity 0.5s;
+    -webkit-transition: opacity 0.5s, -webkit-transform 0.5s; 
+    transition: opacity 0.5s, -webkit-transform 0.5s; 
+    -o-transition: transform 0.5s, opacity 0.5s; 
+    transition: transform 0.5s, opacity 0.5s; 
+    transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
     transition: transform 0.5s, opacity 0.5s;
 }
 
 .art-photo img:hover {
-    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+        -ms-transform: scale(1.0);
+            transform: scale(1.0);
     opacity: 1;
 }
 .clearfix {zoom: 1}
@@ -253,11 +285,17 @@ footer {
     padding: 0;
     width: 100%;
     height: 220px;
-    animation-name: header-change;
-    animation-duration: 10s;
-    animation-direction: normal;
-    animation-iteration-count: infinite;
-    transform: translateY(-60%);
+    -webkit-animation-name: header-change;
+            animation-name: header-change;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+    -webkit-animation-direction: normal;
+            animation-direction: normal;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-transform: translateY(-60%);
+        -ms-transform: translateY(-60%);
+            transform: translateY(-60%);
 }
 footer p {
     padding-top: 30px;
@@ -274,14 +312,20 @@ button {
     font-size: 15px;
     border-radius: 5px;
     border-color: rgb(43, 43, 43);
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+         -o-transition-duration: 0.4s;
+            transition-duration: 0.4s;
     padding: 15px;
 }
 #button1{
-    transform: translateX(250%)
+    -webkit-transform: translateX(250%);
+        -ms-transform: translateX(250%);
+            transform: translateX(250%)
 }
 #button2{
-    transform: translateX(450%)
+    -webkit-transform: translateX(450%);
+        -ms-transform: translateX(450%);
+            transform: translateX(450%)
 }
 button:hover{
     text-decoration: none;
